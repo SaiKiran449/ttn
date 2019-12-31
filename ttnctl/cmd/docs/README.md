@@ -465,13 +465,13 @@ gateways collaborators can be used to manage the collaborators of a gateway.
 gateways collaborators add can be used to add a collaborator to a gateway.
 Available rights are: gateway:settings, gateway:collaborators, gateway:delete, gateway:location, gateway:status, gateway:owner, gateway:messages
 
-**Usage:** `ttnctl gateways collaborators add [AppID] [Username] [Rights...]`
+**Usage:** `ttnctl gateways collaborators add [GatewayID] [Username] [Rights...]`
 
 #### ttnctl gateways collaborators delete
 
 gateways collaborators delete can be used to delete a collaborator from a gateway.
 
-**Usage:** `ttnctl gateways collaborators delete [AppID] [Username]`
+**Usage:** `ttnctl gateways collaborators delete [GatewayID] [Username]`
 
 ### ttnctl gateways delete
 
